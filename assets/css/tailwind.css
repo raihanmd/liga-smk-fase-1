@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Medium.ttf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Bold.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "DM Sans";
+  src: url("../fonts/DMSans_18pt-Medium.ttf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "DM Sans";
+  src: url("../fonts/DMSans_18pt-SemiBold.ttf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "DM Sans";
+  src: url("../fonts/DMSans_18pt-Regular.ttf");
+}
+
+.after-effect::after {
+  content: "";
+  width: 7rem;
+  height: 0.8rem;
+  background: #fcd4a4;
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.event::after {
+  content: "";
+  width: 18.3rem;
+  height: 0.8rem;
+  background: #fcd4a4;
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
